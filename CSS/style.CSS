@@ -1,0 +1,156 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+/* body {
+    background-color: black;
+} */
+
+.interface {
+    max-width: 1280px; /*Largura máxima*/
+    margin: 0 auto; /*Margem*/
+}
+
+header .btn-contato button, .hero-site button {
+    font-size: 18px;
+    background-color: transparent;
+    border:2px  solid #fff;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+/* Estilo do Header */
+header {
+    width: 100%; /*Largura*/
+    padding: 40px 0; /**/
+    position: fixed;
+    top: 0 ;
+    left: 0;
+}
+
+header .interface {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo img {
+    max-width: 40px;
+}
+
+header .menu-desktop nav ul{
+    list-style-type: none;
+}
+
+header .menu-desktop nav ul li {
+    display: inline-block;
+    margin: 0 40px;
+}
+
+header .menu-desktop nav ul li a {
+    color: aliceblue;
+    text-decoration: none; /*Remove o ponto de marcação da lista*/
+    display: inline-block;
+    transition: 2s;
+}
+
+/* Maneira reduzida para personalizar a tag */
+/* Efeito quando passa o mouse for cima do menu */
+.menu-desktop nav a:hover {
+    transform: scale(1.05);
+}
+
+header .btn-contato button {
+    width: 140px;
+    height: 50px;
+}
+
+header .btn-contato button:hover, .hero-site button:hover{
+    background-color: #fff;
+    color: black;
+}
+
+/* Estilo do Hero */
+
+section.hero-site {
+    height: 98vh; /*Altura 100vh significa que vai usar 90% da tela*/
+    background-image: url(../IMAGES/imgs/bg-inicio-site.jpg);
+    background-repeat: no-repeat; /* A imagem não se repete*/ 
+    background-size: cover; /*A imagem cobre toda a tela*/
+    background-position: center; /*A imagem fica centralizada*/
+    color: #fff;
+}
+
+.hero-site .interface {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.hero-site .txt-hero h1 {
+    font-size: 4em;
+    line-height: 60px; /*Altura entre linhas*/
+    font-weight: 100; /*Não funcionou*/
+}
+
+.hero-site .txt-hero h1 span {
+    display: block;
+    font-weight: 800; /*Funcionou*/
+}
+
+.hero-site .txt-hero p {
+    font-size: 20px;
+    font-weight: 100; /*Não funcionou*/
+    margin: 20px 0 ;
+}
+
+.hero-site .txt-hero p span {
+    display: block;
+}
+
+.hero-site button {
+    width: 220px;
+    height: 60px;
+    font-size: 20px;
+}
+
+/* Estilo seção vantagens */
+
+section.vantagens {
+    padding: 80px 0;
+}
+
+.vantagens .itens-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10%;
+    margin-bottom: 60px;
+}
+
+.vantagens .itens-container .img-itens img {
+    max-width: 480px;
+}
+
+.vantagens .itens-container .txt-itens h3 {
+    font-size: 3em;
+    line-height: 50px; 
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.itens-container .txt-itens h3 span {
+    font-weight: 200;
+}
+
+/*Estilo bottuns de contato*/
+
+
+
+
+
+
